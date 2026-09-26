@@ -1,0 +1,12 @@
+So, this thing is all about array and subarray. Lets say, we have an array of lenght 5 like [1,2,3,4,5] and the subarrays of this array will be 
+[1][2][3][4][5]
+[1 2][2 3][3 4][4 5]
+[1 2 3][3 4 5].... and so on
+
+and the mathematical prove shows that, if there are 'n' elements in an array, the number of subarrays of that particular array will be [n*(n+1)]/2
+
+So, the we need to find the subarray of a given arbitrary array, say for example [-1, 5, 4, -4, 8], that yields the maximum sum. And this can be done by using brute force. But if we use brute force, its gonna be unoptimized. So, to find the most optimized way, we are gonna use the 'KADANES ALGORITHM' 
+
+Printing all the subarrays:
+So, before understanding the kadanes algorithm, we are gonna print all the subarrays. In order to do that, we are gonna use 3 loops. The first loop is gonna find the "starting element" of an array and the second loop is gonna find the "ending element" of the array. And the third loop is gonna print the numbers/array within the first element and the second element. 
+  
