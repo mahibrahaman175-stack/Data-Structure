@@ -22,3 +22,12 @@ So, accordingly, we have the first element that is -1. After that, 5 is gonna be
 so, the currentSum=4. After that, the maxSum=max(currentSum, maxSum) will determine the maximum sum. then, the current 
 sum is gonna be ((-1+5)=4+4)=8. And then again it will be compared and the maxSum will get reset to 8. In this way, we 
 can find the maximum sum of the subarray.     
+
+
+Finding the Maximum sum of the subarrays(kadanes ALGORITHM):
+So, the basic intuition of this algorithm is, the sum of 2 numbers. That is, we wont have to go for a second loop here.
+SO, the time complexity here is 0(n). The kadanes algorithm says that, we will start traversing from the start of the 
+given array and then do summation of the next elements and store them into the 'currentSum'. If the currentSum is negative
+we will set currentSum=0. This is because, according to the kadanes algorithm, adding a negative currentSum, wont
+help in finding the largest/maximum subarray sum. so, its better to set the currentSum=0, by doing this so, the
+elements that were contributing in currentSum being negative, will be discarded.       
