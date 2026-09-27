@@ -9,4 +9,16 @@ So, the we need to find the subarray of a given arbitrary array, say for example
 
 Printing all the subarrays:
 So, before understanding the kadanes algorithm, we are gonna print all the subarrays. In order to do that, we are gonna use 3 loops. The first loop is gonna find the "starting element" of an array and the second loop is gonna find the "ending element" of the array. And the third loop is gonna print the numbers/array within the first element and the second element. 
-  
+
+
+Finding the Maximum sum of the subarrays(BRUTE FORCE METHOD):
+Now, we are gonna find the maximum sum of the subarrays in the brute force method. The time complexity
+of the brute force method will be O(n^2). So, in the brute force method, we are gonna run 2 loops. And
+we are gonna have 2 variables. One variable is the currentSum and another variable is the maxSum. So, the idea is
+we will take the first element and then add the next element. The summation of this first element and the
+second element will be stored in the currentSum. Lets say, for the array [-1,5,4,-4,8], the first loop will
+allow to indicate towards the first element. And the second loop will allow to traverse through the array.
+So, accordingly, we have the first element that is -1. After that, 5 is gonna be added with -1 and its gonna be 4 .
+so, the currentSum=4. After that, the maxSum=max(currentSum, maxSum) will determine the maximum sum. then, the current 
+sum is gonna be ((-1+5)=4+4)=8. And then again it will be compared and the maxSum will get reset to 8. In this way, we 
+can find the maximum sum of the subarray.     
