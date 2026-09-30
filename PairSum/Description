@@ -17,9 +17,19 @@ we will use two pointer. One pointer at the first element of the loop (indicatin
 since the array will be sorted) and the another pointer at the last element of the loop(indicating 
 the largest element since the array will be sorted). Then we will add the two elemements and will find
 the pairSum. Now, three casses might appear:
-   i) pairSum>target
-   ii) pairSum<target
+   i) pairSum>target----> j--
+   ii) pairSum<target--->i++
    iii)pairSum==target
+
+  Here, 'i' is set as the first element of the array while 'j' is set as the last element of the array
+  Now, while(i<j), 'i' and 'j' will be added, and then compared. If, the i) occurs, j--. If, the ii) occurs, i++
+  and if iii) occurs, then push the value of i and j into the vector and then later print it
+
+  [1,2,3,4,5], i=1 and j=5 and lets say target is = 5. 
+  So, at first, (i+j)==6>5(target), so, j--
+  So, now, j=4, Therefore, (i+j)==5=5(target), so, when i=1 and j=4, that is in the index
+  0 and 3, the target will be found, and hence the output will be [0,3];  
+
    
     
 
