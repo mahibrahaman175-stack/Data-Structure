@@ -1,0 +1,26 @@
+So, we will now work on pairSum. PairSum is like, we will be given a certain target. And from
+the array, we will have to find the pair whose summation will be equal to the target. This is 
+the main goal of this problem. And to solve this problem, we have  
+1. Brute-force way
+2. efficient way 
+
+
+1. Brute-force way:
+In the brute force way, that is in the most in-efficient way, we will extract every pair from the loop
+and then, add the pair and see if it matches the target or not. if it does, we will put the elements of
+the array into a vector and push back and then later print it. Time complexity of this brute force method
+is O(n^2)   
+
+2. Efficient way:
+In the efficient way, the time complexity will be O(n). Here, we will traverse the entire array once
+we will use two pointer. One pointer at the first element of the loop (indicating the smallest element 
+since the array will be sorted) and the another pointer at the last element of the loop(indicating 
+the largest element since the array will be sorted). Then we will add the two elemements and will find
+the pairSum. Now, three casses might appear:
+   i) pairSum>target
+   ii) pairSum<target
+   iii)pairSum==target
+   
+    
+
+
