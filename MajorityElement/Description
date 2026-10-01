@@ -1,0 +1,9 @@
+So, we will work on Majority element now. Majority element is that element in an array that
+appears more than n/2 times. For example, a given array is [1,2,2,1,1,1]. Here, n=6, so n/2=3
+So, the element '1' appears more than 3 times in the array. So, 1 is the majority element 
+here. There are three ways to find out the majority element inside an array. The three ways are:
+i) Brute-force way
+ii) Efficient way
+iii)Moores-voting algorithm
+
+
