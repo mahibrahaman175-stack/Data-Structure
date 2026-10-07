@@ -7,3 +7,10 @@ ii) Efficient way
 iii)Moores-voting algorithm
 
 
+iii)Moores-votinng algorithm:
+Moores voting algoritm says that, if we consider a 'frequency' to determine the number
+of times an element repeats inside an array, then, the frequency of the majority element
+will be the maximum. According to this algorithm, we will set everytime the value of
+frequency to 0, if there is a new element in the array. If the element is same as the
+previous one, we will do freq++ and if its different, we will do freq--. 
+
