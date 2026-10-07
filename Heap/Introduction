@@ -22,4 +22,13 @@ and in a max-heap, the value of each child is less than or equal to its parent.
     This one removes the minimum element from the heap. That is, it will remove 2
     so the array will become [3,4,10,5]
 
- 3)        
+ 3) decreaseKey():
+    decreaseKey() is basically swapping values. Once you swap the value, you will
+    have to make sure that, the heap structure, whether its a maxHeap or minHeap
+    should be maintained.
+
+ 4) insert()
+ 5) delete() -->  you know them already
+
+ 
+               
