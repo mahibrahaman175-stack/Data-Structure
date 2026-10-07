@@ -1,0 +1,25 @@
+A Heap is a complete binary tree data structure that satisfies the heap property: 
+in a min-heap, the value of each child is greater than or equal to its parent, 
+and in a max-heap, the value of each child is less than or equal to its parent.
+ Heaps are commonly used to implement priority queues, where the smallest (or largest) 
+ element is always at the root.
+
+
+ So, in a HEAP, we can actually arrange them inside like an array. Like, for a binay heap tree,
+ if we go level-wise, then we can easily put them inside an array. Now, if there is a NODE at
+ index i, then the left child is at (2*i) and the right child is at (2*i+1) and its parent node is
+ at floor of (i/2).
+
+ **Some operations on HEAP:
+ I cannot draw a heap here, but i can write an array that represents a Min Heap. lets say, there is and
+ array [2,3,10,4,5].   
+
+ 1) getMin():
+    The getMin() operation, returns the root element of the Min Heap. The Time
+    complexity of this operation is 0(1). So, it will return 2.
+
+ 2) extractMin():
+    This one removes the minimum element from the heap. That is, it will remove 2
+    so the array will become [3,4,10,5]
+
+ 3)        
