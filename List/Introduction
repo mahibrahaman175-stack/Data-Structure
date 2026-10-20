@@ -1,0 +1,11 @@
+Just like vector, list is a type of container which stores different types of elements
+its a bidirectional linear container. The difference between a list and an array is
+when we store elements inside an array, the memory of the elements become contagious. That is,
+if you want to remove an element from the array, you have to shift the other elements into the
+removed elments. But thats not the case of the list. In list, you can remove or add elements 
+without thinking of the 'contagious' behavior of the memory. 
+
+The thumb rule is, if you want to insert and delete elements in a fast and efficient way, then
+use list. Otherwise, use array. 
+
+The examples will show different syntaxes of list.
