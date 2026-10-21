@@ -1,0 +1,18 @@
+So, here we are gonna learn about Link List. Link list is a linear data structure. In link list, there are nodes
+that are connected with the next node. Each of the nodes contain two parts, one is the data that it stores and 
+the other is the memory address of the next node. And just like lists, you will have to access the elements
+thru traversing. That is through O(n) time complexity.
+
+And to traverse every node, you need a Head pointer(Head*) which points to the first element of the list and
+a Tail pointer(Tail*) which points to the last element of the list. And just like list, link list also has
+4 major functions. 
+1. push_front--> inserts elements at the front of the list
+2. push_back-->inserts elements at the back of the list
+3. pop_front-->removes elements from the front of the list
+4. pop_back-->removes elements from the back of the list
+
+
+So, in lists, we have seen direct implementations of these and the initialization of the lists directly
+but here, we will see it from the scratch. Mostly, we will use classes and objects to study link list here.
+We will see them thru examples.
+
