@@ -1,0 +1,6 @@
+Push back is basically same as push_front, just the basic difference is in case 2
+
+Case 2:
+1. Build a new node
+2. Dereference the tail pointer and use its next property to point to the newNode, 'tail->next=newNode'
+3. set tail= newNode
