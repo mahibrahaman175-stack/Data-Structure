@@ -1,0 +1,20 @@
+Okay, now, we are gonna work with one of the core functions of linked list, that is "Push_Front"
+So, while doing push_front, we will encounter 2 cases, first one is when the list is totally empty
+and the second one is when there is an element in the list.
+
+1.First Case:
+
+So, in the first case, when the list is empty, the head pointer (Node*head) is gonna be NULL.
+And the tail pointer (Node*tail) is gonna be NULL too. So, in order to push an element to the
+front, we will have to follow two steps
+1. Create a node--> that will store the data
+2. Point the head pointer(Node*head) and the tail pointer (Node*tail) to the new node
+
+2. Second Case:
+
+So, in the second case, the list is not empty, and the head pointer(Node*head) is pointing to
+the first element of the list. SO, in order to add another element, we will have to follow the 
+following steps:
+1. Create a new node--> this will continue regardless whether there is an element or not
+2. Dereference the newNode pointer and use its 'next' property to point it to the 'head' newNode->next=head
+3. head=newNode; 
