@@ -1,0 +1,10 @@
+So, in pop front, the first element is removed from the list. Initially, we know that, 
+the head pointer(Node*head) is pointing to the first element. So, we will need to 
+move the head pointer(Node*head) to the next element and then delete the first element.
+This procedure requires 4 steps:
+1. Create a temp pointer (Node* temp) and make it equal to head;
+2. Move the head pointer to the next element. That is, Dereference the head pointer(Node*head)
+   and set it equal to the 'next' element.  'head=head->next'
+3. Set the temporary pointer (Node*temp) to NULL
+4. Delete the temporary pointer (Node*temp)
+
