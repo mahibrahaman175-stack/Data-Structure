@@ -44,6 +44,9 @@ using namespace std;
         }
       }
 
+
+      
+
       void printLL(){
         Node*temp=head;
         while(temp!=NULL){
@@ -59,15 +62,6 @@ using namespace std;
 
     List ll;
 
-    ll.push_front(1);
-    ll.push_front(2);
-    ll.push_front(3);
-
-    ll.push_back(5);
-    ll.push_back(9);
-    ll.push_back(11);
-
-    ll.printLL();
     
     return 0;
  }
