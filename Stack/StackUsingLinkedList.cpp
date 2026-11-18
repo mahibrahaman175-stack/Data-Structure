@@ -29,7 +29,7 @@ class Stack{
 int main(){
     Stack s;
     s.push(1);
-    s.push(10);
+    s.push(67);
     s.push(59);
 
     while(!s.empty()){
