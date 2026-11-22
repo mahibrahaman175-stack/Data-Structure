@@ -3,7 +3,7 @@
 #include<stack>
 
 using namespace std;
-vector<int> prevSmallerElement(vector<int> arr){
+vector<int> nextSmallerElement(vector<int> arr){
 
     vector<int> ans(arr.size(), 0);
     stack<int> st;
@@ -29,7 +29,7 @@ vector<int> prevSmallerElement(vector<int> arr){
 
 int main(){
     vector<int> arr={1,6,2};
-    vector<int> ans= prevSmallerElement(arr);
+    vector<int> ans= nextSmallerElement(arr);
 
     for(int val: ans){
         cout<<val<<" ";
